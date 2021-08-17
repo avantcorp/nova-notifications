@@ -1,11 +1,14 @@
 {
-    "name": "mirovit/nova-notifications",
+    "name": "avantcorp/nova-notifications",
     "description": "A Laravel Nova tool to display user notifications.",
     "keywords": [
         "laravel",
         "nova"
     ],
     "license": "MIT",
+    "replace": {
+        "mirovit/nova-notifications": "1.0.6"
+    },
     "require": {
         "php": ">=7.1.0",
         "nesbot/carbon": "^2.00",
