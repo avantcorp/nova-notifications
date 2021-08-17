@@ -26,7 +26,7 @@
       <button
           v-if="notification.read_at === null"
           @click="markAsRead()"
-          class="btn btn-primary btn-xs font-normal"
+          class="btn btn-primary btn-xs font-normal flex-shrink-0"
       >
         {{ __('Mark read') }}
       </button>
